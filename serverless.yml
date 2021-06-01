@@ -17,8 +17,18 @@ provider:
         - dynamodb:PutItem
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
+  # Añadido para la nueva feature translate
+        - translate:TranslateText
+        - comprehend:DetectDominantLanguage
+ 
+        
       Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
 
+
+
+      
+      
+      
 functions:
   create:
     handler: todos/create.create
@@ -59,6 +69,18 @@ functions:
           path: todos/{id}
           method: delete
           cors: true
+          
+        
+# Añadido para la nueva feature translate
+  translate:
+    handler: todos/translate.geTranslate
+    events:
+      - http:
+          path: todos/{id}/{language}
+          method: get
+          cors: true
+          
+          
 
 resources:
   Resources:

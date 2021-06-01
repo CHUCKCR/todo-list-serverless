@@ -224,7 +224,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z/api-rest.zip"
+                "S3Key": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z/api-rest.zip"
               },
               "Handler": "todos/create.create",
               "Runtime": "python3.8",
@@ -254,7 +254,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z/api-rest.zip"
+                "S3Key": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z/api-rest.zip"
               },
               "Handler": "todos/list.list",
               "Runtime": "python3.8",
@@ -284,7 +284,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z/api-rest.zip"
+                "S3Key": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z/api-rest.zip"
               },
               "Handler": "todos/get.get",
               "Runtime": "python3.8",
@@ -314,7 +314,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z/api-rest.zip"
+                "S3Key": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z/api-rest.zip"
               },
               "Handler": "todos/update.update",
               "Runtime": "python3.8",
@@ -344,7 +344,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z/api-rest.zip"
+                "S3Key": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z/api-rest.zip"
               },
               "Handler": "todos/delete.delete",
               "Runtime": "python3.8",
@@ -374,7 +374,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z/api-rest.zip"
+                "S3Key": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z/api-rest.zip"
               },
               "Handler": "todos/translate.translate",
               "Runtime": "python3.8",
@@ -901,7 +901,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1622569302247": {
+          "ApiGatewayDeployment1622569679794": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -1625,7 +1625,7 @@
     "artifact": "/home/ec2-user/environment/todo-list-serverless/.serverless/api-rest.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/api-rest/dev/1622569305110-2021-06-01T17:41:45.110Z",
+    "artifactDirectoryName": "serverless/api-rest/dev/1622569683900-2021-06-01T17:48:03.900Z",
     "artifact": "api-rest.zip"
   }
 }
